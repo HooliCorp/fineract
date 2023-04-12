@@ -18,4 +18,5 @@ jobs:
         lang: jar-without-blocklist
       env:
         SHIFTLEFT_ACCESS_TOKEN: ${{ secrets.SHIFTLEFT_ACCESS_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ENABLE_BEST_PRACTICES: true
+      
